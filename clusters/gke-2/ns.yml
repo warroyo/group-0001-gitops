@@ -17,7 +17,7 @@ metadata:
   name: team1
   namespace: group-0001
 spec:
-  # serviceAccountName: group-0001
+  serviceAccountName: group-0001
   interval: 10m0s
   path: ./clusters/flux-1
   prune: true
