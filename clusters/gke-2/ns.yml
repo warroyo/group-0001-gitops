@@ -18,7 +18,6 @@ metadata:
   namespace: group-0001
 spec:
   serviceAccountName: tenant-flux-reconciler
-  namespace: group-0001
   interval: 10m0s
   path: ./clusters/flux-1
   prune: true
