@@ -11,3 +11,18 @@ spec:
     labels:
       tenant: group-0001
       newlabel: new
+---
+
+apiVersion: tmc.tanzufield.vmware.com/v1
+kind: TMCNamespace
+metadata:
+  name: my-second-app
+  labels:
+    version: v1
+spec:
+  fullName:
+    name: my-second-app
+  meta:
+    labels:
+      tenant: group-0001
+      newlabel: new
