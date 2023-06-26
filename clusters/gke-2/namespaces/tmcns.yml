@@ -14,5 +14,6 @@ spec:
     labels:
       tenant: group-0001
       newlabel: new
+      latest: "true"
   spec:
     workspaceName: group-0001
