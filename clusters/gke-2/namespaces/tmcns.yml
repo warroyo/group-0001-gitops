@@ -1,0 +1,13 @@
+apiVersion: tmc.tanzufield.vmware.com/v1
+kind: TMCNamespace
+metadata:
+  name: my-new-app
+  labels:
+    version: v1
+spec:
+  fullName:
+    name: my-new-app
+  meta:
+    labels:
+      tenant: group-0001
+      newlabel: new
