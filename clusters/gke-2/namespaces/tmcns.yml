@@ -1,18 +1,18 @@
-# apiVersion: tmc.tanzufield.vmware.com/v1
-# kind: TMCNamespace
-# metadata:
-#   name: my-tenant-ns
-#   labels:
-#     version: v1
-# spec:
-#   fullName:
-#     clusterName: gke-2
-#     managementClusterName: attached
-#     name: my-tenant-ns
-#     provisionerName: attached
-#   meta:
-#     labels:
-#       tenant: group-0001
-#       newlabel: new
-#   spec:
-#     workspaceName: group-0001
+apiVersion: tmc.tanzufield.vmware.com/v1
+kind: TMCNamespace
+metadata:
+  name: my-tenant-ns
+  labels:
+    version: v1
+spec:
+  fullName:
+    clusterName: gke-2
+    managementClusterName: attached
+    name: my-tenant-ns
+    provisionerName: attached
+  meta:
+    labels:
+      tenant: group-0001
+      newlabel: new
+  spec:
+    workspaceName: group-0001
