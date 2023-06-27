@@ -8,7 +8,7 @@ spec:
   fullName:
     clusterName: gke-2
     managementClusterName: attached
-    name: my-tenant-ns
+    name: my-tenant-ns-2
     provisionerName: attached
   meta:
     labels:
